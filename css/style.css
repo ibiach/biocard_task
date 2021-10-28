@@ -1,0 +1,32 @@
+@font-face {
+	font-weight: 400;
+	font-family: 'TT Norms';
+	font-style: normal;
+	src: local('TT Norms');
+	src: url('/assets/fonts/TTNorms-Regular.woff2') format('woff2');
+	src: url('/assets/fonts/TTNorms-Regular.woff') format('woff');
+}
+
+html,
+body,
+input,
+button {
+	font-family: 'TT Norms', sans-serif;
+	font-style: normal;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+.container > p {
+	padding-top: 30px;
+	padding-bottom: 21px;
+	color: #8c8c8c;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.16px;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+}
