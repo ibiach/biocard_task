@@ -34,7 +34,6 @@ th {
 	color: #939da6;
 	font-size: 13px;
 	line-height: 15px;
-	text-align: left;
 }
 
 td {
@@ -42,8 +41,6 @@ td {
 	padding-right: 20px;
 	font-size: 13px;
 	line-height: 15px;
-	text-align: justify;
-	vertical-align: top;
 }
 
 th:nth-child(1) {
