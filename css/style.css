@@ -1,18 +1,18 @@
 @font-face {
-	font-weight: 400;
+	font-weight: 400, 500;
 	font-family: 'TT Norms';
 	font-style: normal;
 	src: local('TT Norms');
 	src: url('/assets/fonts/TTNorms-Regular.woff2') format('woff2');
-	src: url('/assets/fonts/TTNorms-Regular.woff') format('woff');
 }
 
 html,
 body,
 input,
-button {
+button,
+p {
+	margin: 0;
 	font-family: 'TT Norms', sans-serif;
-	font-style: normal;
 }
 
 .container {
@@ -28,5 +28,19 @@ button {
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.16px;
-	font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.btn {
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	height: 40px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.16px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
 }

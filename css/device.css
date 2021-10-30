@@ -23,19 +23,17 @@
 	font-size: 20px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
-	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .content-pic {
 	max-width: 40px;
-	padding-top: 6px;
-	padding-right: 20px;
+	margin-top: 6px;
+	margin-right: 20px;
 }
 
 .option > input {
 	width: 18px;
 	height: 18px;
-	margin: 0;
 }
 
 .months {
@@ -46,7 +44,7 @@
 	margin-bottom: 20px;
 	padding-left: 12px;
 	color: #353535;
-	font-weight: normal;
+	font-weight: 6000;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.16px;
@@ -55,17 +53,17 @@
 	background-position-x: 200px;
 	border: 1px solid #e9e9e9;
 	border-radius: 0;
+	cursor: pointer;
 	appearance: none;
-	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .form__report-options {
+	margin-bottom: 50px;
 	color: #353535;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: 0.16px;
-	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .option {
@@ -76,21 +74,12 @@
 label {
 	padding-left: 12px;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
-.submit > input {
+.form__report-btn {
 	width: 180px;
-	height: 40px;
-	margin-top: 38px;
-	color: #fff;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 24px;
-	letter-spacing: 0.16px;
 	background: #4990e2;
-	border: none;
-	border-radius: 3px;
-	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .container__content-info {
@@ -111,7 +100,7 @@ label {
 }
 
 .content-info_blue {
-	color: #0645ad;
+	color: #4990e2;
 }
 
 .content-info_black {

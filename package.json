@@ -1,5 +1,6 @@
 {
 	"devDependencies": {
+		"prettier": "^2.4.1",
 		"stylelint": "^14.0.1",
 		"stylelint-config-prettier": "^9.0.3",
 		"stylelint-config-rational-order": "^0.1.2",
@@ -16,8 +17,5 @@
 	"name": "biocard",
 	"version": "1.0.0",
 	"main": "index.js",
-	"license": "MIT",
-	"dependencies": {
-		"prettier": "2.4.1"
-	}
+	"license": "MIT"
 }
